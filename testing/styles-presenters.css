@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.maintext {
+	width: 100%;	
+}
+
+.photosidebar {
+	display: none;
+}
+
+.photosidebarh6 {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.featurephoto {
+	display: inline-block;
+	width: 90%;
+	margin-left: 0%;
+	border-radius: 50%;
+	border: 1px #000000 solid;
+}
+
+.photocontentbox {
+	text-align: center;
+	width: 100%;
+}
+
+.presenterphotocell {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+	width: 25%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+@media (min-width: 500px) and (max-width: 768px)  {
+	
+	.presenterphotocell {
+		
+		width: 33.33% !important;
+	}
+	
+}
+
+@media (min-width: 300px) and (max-width: 499px)  {
+
+	.presenterphotocell {
+		
+		width: 50% !important;
+	}
+
+	.photosidebarh6 {
+		font-size: 3vw !important;
+		line-height: 4vw;
+	}
+	
+}
+
+@media (max-width: 299px)  {
+
+	.presenterphotocell {
+		
+		width: 90% !important;
+	}
+
+	.photosidebarh6 {
+		font-size: 5vw !important;
+		line-height: 6vw;
+	}
+	
+}
+
+
+
+
+

@@ -1,0 +1,770 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	background-color: #000000;
+	color: #fffdfa;
+	margin:0px;
+	padding:0px;
+	font-size: 1em;
+	font-family: agenda, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+a {
+	color: #ffe1a7;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffe1a7;
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: 'AlchemyNormal1651';
+	text-shadow: 0px 0px 10px #000, 0px 0px 22px #000,0px -3px 3px rgba(255,255,255,.1),0px 3px 3px rgba(255,255,255,.1),0px -5px 3px rgba(255,255,255,.1),0px 5px 3px rgba(255,255,255,.1),0px -9px 3px rgba(255,255,255,.1),0px 9px 3px rgba(255,255,255,.1);
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 4px;
+	font-size: 5VW;
+	line-height: 5.3VW;
+	color: #ffe1a7;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'AlchemyNormal1651';
+	text-shadow: 0px -3px 3px rgba(255,255,255,.1),0px 3px 3px rgba(255,255,255,.1),0px -5px 3px rgba(255,255,255,.1),0px 5px 3px rgba(255,255,255,.1),0px -9px 3px rgba(255,255,255,.1),0px 9px 3px rgba(255,255,255,.1);
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2px;
+	font-size: 2.5VW;
+	line-height: 2.5VW;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'AlchemyNormal1651';
+	text-shadow: 0px -3px 3px rgba(255,255,255,.1),0px 3px 3px rgba(255,255,255,.1),0px -5px 3px rgba(255,255,255,.1),0px 5px 3px rgba(255,255,255,.1),0px -9px 3px rgba(255,255,255,.1),0px 9px 3px rgba(255,255,255,.1);
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2px;
+	font-size: 2VW;
+	line-height: 2VW;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+
+
+/* main box */
+
+.mainbox  {
+	background-image: url("images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 1000px;
+	overflow: visible;
+}
+
+/* Hero */
+
+.herobox {
+	position: relative;
+	top: 7.12VW;
+}
+
+.logo {
+	margin-left: 7.92%;
+	width: 38.6%;
+	max-width: 460px;
+	height: auto;
+	float:left;
+}
+
+.herotext {
+	float:left;
+	margin-top: 8.56VW;
+	width: 41%;
+	max-width: 600px;
+	font-family: 'AlchemyNormal1651';
+	font-size: 1.78VW;
+	line-height: 2.9VW;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 0px 0px 10px #000, 0px 0px 33px #000;
+}
+
+.heroh2 {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: .7vw;
+	font-size: 2.8VW;
+	color: #ffe1a7;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 0px 0px 10px #000, 0px 0px 33px #000;
+}
+
+.herotext p {
+	margin:0px;
+	padding: 0px;
+}
+
+
+/* Navigation Buttons */
+
+.navbox {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	position:absolute;
+	top: 42VW;
+	width: 90%;
+	left: 5%;
+	right: 5%;
+}
+
+.nav {
+	width: 100%;
+	display: block;
+	list-style: none;
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	font-family: 'AlchemyNormal1651';
+	font-size: 2.8VW;
+	line-height: 2.7VW;
+	text-align: center;
+}
+
+.navlink {
+	text-decoration: none;
+	color: #fffdfa;
+}
+	
+
+.navlink:hover {
+	color: #ffe1a7;
+	text-shadow: 2px 2px 1px #000, 0px 0px 15px #000;
+	text-decoration: none;
+}
+
+.button {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0.46VW;
+	height: 3.679VW;
+	display: inline-block;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.buttonregistration {
+	width: 27.9843444227006%;
+	margin-right: 1.374168297456%;
+	background-image: url("images/button-registration-bg.png");
+	
+}
+
+.buttonpresenters {
+	width: 23.7769080234834%;
+	margin-right: 3.3203522504892%;
+	background-image: url("images/button-presenters-bg.png");
+}
+
+.buttonschedule {
+	width: 19.3630136986301%;
+	margin-right: 3.2289628180039%;
+	background-image: url("images/button-schedule-bg.png");
+}
+
+.buttonvendors {
+	width: 20.3522504892368%;
+	background-image: url("images/button-vendors-bg.png");
+}
+
+/* content area */
+
+.contentbox {
+	clear: both;
+	float: none;
+	position:absolute;
+	padding: 0px;
+	top: 48.5VW;
+	display: block;
+	width: 74%;
+	left: 13%;
+	right: 13%;
+	
+}
+
+.maintext {
+	margin:0px;
+	padding: 0px;
+	text-align: justify;
+	float: left;
+	width: 75%;
+	text-shadow: 0px 0px 22px #000, 3px 3px 8px #000;
+	color: #fffdfa;
+}
+
+.maintext p {
+	padding-top: 0px;
+	margin-top:0px;
+	font-size: 1.3em;
+	line-height: 1.35em;
+}
+
+.photosidebar {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	width: 25%;
+}
+
+.featuredlink {
+	text-decoration: none;
+	color: #fffdfa;
+	font-weight: normal;
+}
+
+
+.featurephoto {
+	width: 88%;
+	margin-left: 12%;
+	border-radius: 50%;
+	border: 1px #000000 solid;
+}
+
+.featuredlink:hover {
+	color: #ffe1a7;
+	text-shadow: 2px 2px 1px #000, 0px 0px 15px #000;
+	text-decoration: none;
+}
+
+.featuredlink:hover > img {
+	border: 1px #ffe1a7 solid !important;
+}
+
+
+.photosidebar h5 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: .07vw;
+	margin-bottom: 10px;
+	width: 88%;
+	margin-left: 12%;
+	font-weight: normal;
+	font-size: 1.76vw;
+	font-family: 'AlchemyNormal1651';
+	text-align: justify;
+	height: 1.2em;
+}
+
+.photosidebar h5:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.photosidebarh6 {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+	width: 88%;
+	margin-left: 12%;
+	font-size: 1.4vw;
+	font-weight: normal;
+	font-family: 'AlchemyNormal1651';
+	text-align: center;
+}
+
+
+.countrycolor {
+	color: #BBBBBB;
+}
+
+.registrationfooter { 
+	width: 100%;
+	text-align: center;
+}
+
+.registrationfooter h3 { 
+	text-align: center !important;
+}
+
+
+/* Schedule Section */
+
+.schedulerow {
+	margin:0px !important;
+	padding:0px !important;
+	width: 100%;
+}
+
+.schedule-left-column {
+	padding: 7px !important;
+	margin: 0px !important;
+	border:#534741 solid 1px;
+	border-right:none !important;
+}
+
+.schedule-right-column {
+	margin: 0px !important;
+	padding: 0px !important;
+	vertical-align:top;
+	width:100% !important;
+}
+
+.scheduletable {
+	margin: 0px !important;
+	width:517px;
+}
+
+.scheduletable tbody tr td {
+	padding: 7px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	border:#534741 solid 1px !important;
+
+}
+
+.scheduletable tbody tr:nth-child(even) {
+	background-image:url(images/stmary2.png) !important;
+}
+.scheduletable tbody tr:nth-child(odd) {
+	background-image:url(images/stmary1.png) !important;
+}
+
+.scheduletime {
+	font-family: abadi-condensed, sans-serif;
+	color:#113272;
+	font-size:22px;
+	background-image:url(images/timeheader.png) !important;
+	float:left !important;
+	clear:both !important;
+	width: 192px !important;
+
+}
+
+.schedulebreak {
+	font-family: abadi-condensed, sans-serif;
+	color:#666666;
+	font-size:22px;
+	background-image:url(images/breakcell.png) !important;
+	border-right:#534741 solid 1px !important;
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+
+.scheduleroom {
+	font-family: abadi-condensed, sans-serif;
+	color:#534741;
+	font-size:22px;
+	font-weight: normal;
+}
+
+
+@media (min-width: 1250px) {
+	
+	
+	h1 {
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+	h2 {
+		font-size: 32px;
+		line-height: 32px;
+	}
+
+	h3 {
+		font-size: 25px;
+		line-height: 25px;
+	}
+
+	.navbox {
+		top: 523px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0%;
+		right: 0%;
+	}
+	
+	.nav {
+		width: 1125px;
+		margin-left:auto;
+		margin-right: auto;
+		font-size: 35px;
+		line-height: 33px;
+	}
+
+	.herobox {
+		position: relative;
+		top: 90px;
+	}
+
+	
+	.herotext {
+		width: 530px;
+		font-size: 23px;
+		line-height: 34px;
+		margin-top: 107px;
+	}
+
+	.heroh2 {
+		font-size: 35px;
+		margin-bottom: 4px;
+	}
+	
+	.contentbox {
+		top: 604px;
+		width: 925px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+	.photosidebar h5 {
+		font-size: 21.4px;
+	}
+
+	.photosidebarh6 {
+		font-size: 17px;
+		
+	}
+
+	
+}
+
+
+@media (min-width: 601px) and (max-width: 768px)  {
+	
+	h1 {
+		font-size: 3.4VW;
+		line-height: 3.4VW;
+	}
+
+	h2 {
+		font-size: 2.9VW;
+		line-height: 2.9VW;
+	}
+
+	h3 {
+		font-size: 2.4VW;
+		line-height: 2.4VW;
+	}
+
+
+	.herotext {
+		margin-top: 4.4VW;
+		font-size: 2.5VW;
+		line-height: 3.5VW;
+	}
+
+	.heroh2 {
+		margin-bottom: .8vw;
+		font-size: 3.2VW;
+	}
+	
+	.navbox {
+		width: 94%;
+		left: 3%;
+		right: 3%;
+	}
+
+	.nav {
+		font-size: 3.2VW;
+		line-height: 3.1VW;
+	}
+	
+	.button {
+		background-size: 100%;
+	}
+
+	.buttonregistration {
+		width: 29.1585127201566%;
+		margin-right: 0%;
+	}
+
+	.buttonpresenters {
+		width: 25.9769080234834%;
+		margin-right: 1.4203522504892%;	
+	}
+
+	.buttonschedule {
+		width: 20.9130136986301%;
+		margin-right: .0289628180039%;	
+	}
+
+	.buttonvendors {
+		width: 22.5022504892368%;
+	}
+	
+	.contentbox {
+		width: 77%;
+		left: 12.5%;
+		right: 12.5%;
+	}
+
+	.maintext {
+		width: 70%;
+	}
+
+	.photosidebar {
+		width: 30%;
+	}
+
+	.photosidebar h5 {
+		font-size: 2.2vw;
+	}
+
+	.photosidebarh6 {
+		font-size: 1.7vw;
+	}
+
+
+
+}
+
+@media (min-width: 500px) and (max-width: 600px)  {
+	
+
+	h1 {
+		font-size: 3.6VW;
+		line-height: 3.6VW;
+	}
+
+	h2 {
+		font-size: 3.1VW;
+		line-height: 3.1VW;
+	}
+
+	h3 {
+		font-size: 2.6VW;
+		line-height: 2.6VW;
+	}	
+
+	.mainbox {
+		background-position: center 7.8vw;
+	}
+	
+	.herobox {
+		position: relative;
+		top: 13VW;
+	}
+	.logo {
+		margin-left: 0%;
+		width: 55%;
+	}
+	
+	.herotext {
+		width: 42.5%;
+		margin-left: -2vw;
+		margin-top: 4.6VW;
+		font-size: 3VW;
+		line-height: 4.75VW;
+	}
+
+	.heroh2 {
+		margin-bottom: 1.5vw;
+		font-size: 3.7VW;
+	}
+
+	
+	.navbox {
+		z-index: 1000;
+		position: fixed;
+		top: 0px;
+		padding-top: 15px;
+		height: 3vw;
+		width: 98%;
+		left: 1%;
+		right: 1%;
+		background-color:rgba(0,0,0,1);
+		box-shadow: 0px 3vw 20px rgba(0,0,0,1);
+	}
+	
+	
+	.nav {
+		font-size: 4.4VW;
+		line-height: 2.7VW;
+	}
+	
+	.button {
+		height: 5.5VW;
+	}
+	
+
+	.buttonregistration {
+		width: 29.1585127201566%;
+		margin-right: 0% !important;
+	}
+
+	.buttonpresenters {
+		width: 25.9769080234834%;
+		margin-right: 1.4203522504892%;	
+	}
+
+	.buttonschedule {
+		width: 20.9130136986301%;
+		margin-right: .0289628180039%;	
+	}
+
+	.buttonvendors {
+		width: 22.5022504892368%;
+	}
+
+	.contentbox {
+		top: 64VW;
+		width: 90%;
+		left: 5%;
+		right: 5%;
+
+	}
+
+	.maintext {
+		width: 70%;
+	}
+
+	.photosidebar {
+		width: 30%;
+	}
+
+	.photosidebar h5 {
+		font-size: 2.55vw;
+	}
+
+	.photosidebarh6 {
+		font-size: 2vw;
+	}
+
+
+}
+
+
+@media (max-width: 499px)  {
+	
+	h1 {
+		font-size: 28px;
+		line-height: 34px;
+		text-align: left;
+	}
+
+	h2 {
+		font-size: 23px;
+		line-height: 29px;
+		text-align: left;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 24px;
+		text-align: left;
+	}
+
+	
+	.mainbox {
+		background-position: center 10vw;
+	}
+	
+	.herobox {
+		position: relative;
+		top: 15VW;
+	}
+	.logo {
+		margin-left: 6%;
+		margin-right: 8%;
+		width: 86%;
+		float: none;
+	}
+	
+	.herotext {
+		width: 88%;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-top: -5VW;
+		font-size: 4.75VW;
+		line-height: 6.75VW;
+	}
+
+	.heroh2 {
+		margin-bottom: .9vw;
+		font-size: 6VW;
+	}
+	
+	.navbox {
+		z-index: 1000;
+		position: fixed;
+		top: 0px;
+		padding-top: 15px;
+		width: 100%;
+		left: 0%;
+		right: 0%;
+		background-color:rgba(0,0,0,1);
+		box-shadow: 0px 2.8vw 25px rgba(0,0,0,1);
+	}
+	
+	.nav {
+		font-size: 4.4VW;
+		line-height: 2.7VW;
+	}
+	
+	.button {
+		height: 5.5VW;
+	}
+	
+
+	.buttonregistration {
+		width: 29.1585127201566%;
+		margin-right: 0% !important;
+	}
+
+	.buttonpresenters {
+		width: 25.9769080234834%;
+		margin-right: 1.4203522504892%;	
+	}
+
+	.buttonschedule {
+		width: 20.9130136986301%;
+		margin-right: .0289628180039%;	
+	}
+
+	.buttonvendors {
+		width: 22.5022504892368%;
+	}
+
+	.contentbox {
+		position: relative;
+		top: 19.7VW;
+		width: 90%;
+		left: 5%;
+		right: 5%;
+	}
+
+	.maintext {
+		width: 100%;
+	}
+
+	.photosidebar {
+		display: none;
+	}
+	
+
+
+}
+
+
+
+
+

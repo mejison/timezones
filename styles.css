@@ -1,0 +1,1053 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hide {
+	display: none !important;
+}
+
+body {
+	background-color: #000000;
+	color: #fffdfa;
+	margin:0px;
+	padding:0px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	font-family: agenda, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+a {
+	color: #ffe1a7;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffbf40;
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: 'AlchemyNormal1651';
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 4px;
+	font-size: 3.6vW;
+	line-height: 4.4VW;
+	color: #ffe1a7;
+	font-weight: normal !important;
+}
+
+h2 {
+	font-family: 'AlchemyNormal1651';
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2px;
+	padding-top: 10px;
+	font-size: 2.6VW;
+	line-height: 3VW;
+	color: #fffdfa;
+	font-weight: normal;
+}
+
+.h2workshop {
+	color: #ffe1a7;
+}
+
+h3 {
+	font-family: 'AlchemyNormal1651';
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2px;
+	padding-top: 8px;
+	font-size: 2VW;
+	line-height: 2.4VW;
+	color: #fffdfa;
+	font-weight: normal;
+}
+
+.h3whitelink {
+	color: #fff;
+}
+
+h4 {
+	font-family: agenda-condensed, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	font-size: 2.2VW;
+	line-height: 2.4VW;
+	color:#bad9ff;
+}
+
+sup {
+	vertical-align: baseline;
+	font-size: 75%;
+}
+
+
+/* main box */
+
+.mainbox  {
+	background-image: url("images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 1000px;
+	overflow: visible;
+}
+
+/* Hero */
+
+.herobox {
+	position: relative;
+	top: 7.12VW;
+	overflow: visible;
+}
+
+.heroboxsub {
+	top: 5.12VW;
+}
+
+.logo {
+	margin-left: 7.92%;
+	width: 38.6%;
+	max-width: 460px;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logosub {
+	margin-left: 15.7%;
+	width: 25%;
+	
+}
+
+.herotext {
+	margin-bottom: 2%;
+	width: 41%;
+	max-width: 600px;
+	font-family: 'AlchemyNormal1651';
+	font-size: 1.78VW;
+	line-height: 2.9VW;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 0px 0px 10px #000, 0px 0px 33px #000;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.heroh2 {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: .7vw;
+	font-size: 2.8VW;
+	color: #ffe1a7;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 0px 0px 10px #000, 0px 0px 33px #000;
+}
+
+.herotext p {
+	margin:0px;
+	padding: 0px;
+}
+
+/* Navigation Buttons */
+
+.navbox {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	top: 6vw;
+	clear: both;
+	width: 90%;
+	left: 5%;
+	right: 5%;
+}
+
+.nav {
+	width: 100%;
+	display: block;
+	list-style: none;
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	font-family: 'AlchemyNormal1651';
+	font-size: 2.8VW;
+	line-height: 2.7VW;
+	text-align: center;
+}
+
+.navlink {
+	text-decoration: none;
+	color: #fffdfa;
+}
+	
+
+.navlink:hover {
+	color: #ffe1a7;
+	text-shadow: 2px 2px 1px #000, 0px 0px 15px #000;
+	text-decoration: none;
+}
+
+.button {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0.46VW;
+	height: 3.679VW;
+	display: inline-block;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.buttonregistration {
+	width: 27.9843444227006%;
+	margin-right: 1.374168297456%;
+	background-image: url("images/button-registration-bg.png");
+	
+}
+
+.buttonpresenters {
+	width: 23.7769080234834%;
+	margin-right: 3.3203522504892%;
+	background-image: url("images/button-presenters-bg.png");
+}
+
+.buttonschedule {
+	width: 19.3630136986301%;
+	margin-right: 3.2289628180039%;
+	background-image: url("images/button-schedule-bg.png");
+}
+
+.buttonvendors {
+	width: 20.3522504892368%;
+	background-image: url("images/button-vendors-bg.png");
+}
+
+/* content area */
+
+.contentbox {
+	clear: both;
+	float: none;
+	position:relative;
+	padding: 0px;
+	top: 8.4VW;
+	display: block;
+	width: 74%;
+	left: 13%;
+	right: 13%;
+	
+}
+
+.maintext {
+	margin:0px;
+	padding: 0px;
+	text-align: justify;
+	float: left;
+	width: 75%;
+	text-shadow: 0px 0px 22px #000, 3px 3px 8px #000;
+	color: #fffdfa;
+}
+
+.maintext p {
+	padding-top: 0px;
+	margin-top:0px;
+}
+
+.maintext UL {
+	list-style: none; /* Remove default bullets */
+}
+
+
+.maintext ul li::before {
+	font-family: 'TropMagus-Regular';
+	content: "✶";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: #bad9ff; /* Change the color */
+	font-weight: normal; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1.2em; /* Also needed for space (tweak if needed) */
+	margin-left: -1.2em; /* Also needed for space (tweak if needed) */
+}
+
+.photosidebar {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	width: 25%;
+}
+
+.photosidebar p {
+	margin-top: 5px;
+	margin-left: 12%;
+}
+
+.presenterlink {
+	text-align: center;
+	font-size: 1.8vw;
+	font-family: agenda-condensed, sans-serif;
+}
+
+.featuredlink {
+	text-decoration: none;
+	color: #fffdfa;
+	font-weight: normal;
+}
+
+.featurephoto {
+	width: 88%;
+	margin-left: 12%;
+	border-radius: 50%;
+	border: 1px #000000 solid;
+}
+
+.featuredlink:hover {
+	color: #ffe1a7;
+	text-shadow: 2px 2px 1px #000, 0px 0px 15px #000;
+	text-decoration: none;
+}
+
+.featuredlink:hover > img {
+	border: 1px #ffe1a7 solid !important;
+}
+
+
+.photosidebar h5 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: .07vw;
+	margin-bottom: 10px;
+	width: 88%;
+	margin-left: 12%;
+	font-weight: normal;
+	font-size: 1.76vw;
+	font-family: 'AlchemyNormal1651';
+	text-align: center;
+	height: 1.2em;
+}
+
+
+.photosidebarh6 {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+	width: 88%;
+	margin-left: 12%;
+	font-size: 1.35vw;
+	line-height: 1.8vw;
+	font-weight: normal;
+	font-family: 'AlchemyNormal1651';
+	text-align: center;
+}
+
+
+.countrycolor {
+	font-family: agenda-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.6vw;
+	color: #BBBBBB;
+}
+
+.registrationfooter { 
+	width: 100%;
+	text-align: center;
+	clear: both;
+	padding-top:10px;
+	padding-bottom: 10px;
+
+}
+
+.footerlogo {
+	width: 200px;
+	display: inline-block !important;
+	padding-top:5px;
+
+}
+
+
+
+/* Schedule Section */
+
+.scheduleheader {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	clear: both;
+}
+
+.schedulerow {
+	margin:0px;
+	padding:0px;
+	padding-top: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	clear: both;
+}
+
+.schedule-left-column {
+	padding: 8px;
+	margin: 0px;
+	width: 30%;
+	border-top:#ffe1a7 solid 1px;
+	border-right:none;
+	float:left;
+	clear:both;
+	box-sizing: border-box;
+	display: block;
+}
+
+.schedule-right-column {
+	float: left;
+	width: 70%;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	box-sizing: border-box;
+	display: block;
+}
+
+.cst {
+	font-variant: small-caps;
+	letter-spacing: -3px;
+}
+
+.cst-agenda {
+	display: inline-block;
+	font-variant: none;
+	vertical-align: baseline;
+	font-size: 45%;
+	line-height: 80%;
+	text-transform: uppercase;
+	
+}
+
+.scheduletable {
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+	border-collapse: collapse;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.scheduletable tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+.scheduletable tbody tr td {
+	margin: 0px;
+	padding: 10px;
+	padding-top: 8px;
+	border-top:#ffe1a7 solid 1px;
+	/* border-left:#ffe1a7 solid 1px; */
+
+}
+
+.schedulecell {
+	color: #fffdfa;
+	font-family: agenda, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-align: left;
+	padding: 0px;
+	margin:0px;
+	line-height: 1.25;
+}
+
+.scheduleroom {
+	font-family: 'AlchemyNormal1651';
+	color:#bad9ff;
+	font-size:2vw;
+	line-height: 2.7vw;
+	font-weight: normal;
+	padding: 0px;
+	margin:0px;
+	padding-bottom: 0px;
+}
+
+.planets {
+	font-family: 'TropMagus-Regular';
+	font-size: 2vw;
+	line-height: 1.5vw;
+	color: #fffdfa;
+
+}
+
+.scheduletime {
+	font-family: 'AlchemyNormal1651';
+	color:#fffdfa;
+	font-size:2vw;
+	line-height: 2vw;
+	font-weight: normal;
+}
+
+.schedulebreak {
+	font-family: 'AlchemyNormal1651';
+	color:#aaaaaa;
+	font-size:2vw;
+	margin-top: 3px;
+	margin-bottom: 15px;
+	width: 100%;
+	clear: both;
+	padding: 10px;
+	box-sizing: border-box;
+	border-top:#aaaaaa solid 1px;
+}
+
+
+
+
+@media (min-width: 1250px) {
+	
+	
+	h1 {
+		font-size: 45px;
+		line-height: 60px;
+	}
+
+	h2 {
+		font-size: 32px;
+		line-height: 38px;
+	}
+
+	h3 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	h4 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	
+	.navbox {
+		top: 75px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0%;
+		right: 0%;
+	}
+	
+	.nav {
+		width: 1125px;
+		margin-left:auto;
+		margin-right: auto;
+		font-size: 35px;
+		line-height: 33px;
+	}
+	
+	.button {
+		padding-top: 7px;
+		height: 100px;
+	}
+
+	.herobox {
+		position: relative;
+		top: 90px;
+	}
+	
+	.heroboxsub {
+		top: 65px;
+	}
+
+	
+	.herotext {
+		width: 530px;
+		font-size: 23px;
+		line-height: 34px;
+	}
+
+	.heroh2 {
+		font-size: 35px;
+		margin-bottom: 4px;
+	}
+	
+	.contentbox {
+		top: 50px;
+		width: 925px;
+	}
+
+	
+	.photosidebar h5 {
+		font-size: 21.4px;
+	}
+
+	.photosidebarh6 {
+		font-size: 17px;
+		line-height: 22px;
+	}
+	
+	.countrycolor {
+		font-size: 19px;
+
+	}
+	
+	.scheduletime, .schedulebreak, .planets {
+		font-size:24px;
+	}
+	
+	.scheduleroom {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	
+	.presenterlink {
+		font-size: 22px;
+	}
+
+}
+
+
+@media (min-width: 601px) and (max-width: 768px)  {
+	
+	h1 {
+		font-size: 3.4VW;
+		line-height: 3.4VW;
+	}
+
+	h2 {
+		font-size: 2.9VW;
+		line-height: 2.9VW;
+	}
+
+	h3 {
+		font-size: 2.4VW;
+		line-height: 2.9VW;
+	}
+	
+	h4 {
+		font-size: 2.7VW;
+		line-height: 2.9VW;
+	}
+
+
+	.herotext {
+		font-size: 2.5VW;
+		line-height: 3.5VW;
+		margin-bottom: 20px;
+	}
+	
+	.herotextsub {
+		width: 60%;
+		margin-bottom: 1.3%;
+	}
+	
+	.logosub {
+		width: 27%;
+		margin-left: 4.9%;
+		
+	}
+	
+	.heroh2 {
+		margin-bottom: .8vw;
+		font-size: 3.2VW;
+	}
+	
+	.navbox {
+		width: 94%;
+		left: 3%;
+		right: 3%;
+	}
+
+	.nav {
+		font-size: 3.2VW;
+		line-height: 3.1VW;
+	}
+	
+	.button {
+		background-size: 100%;
+	}
+
+	.buttonregistration {
+		width: 29.1585127201566%;
+		margin-right: 0%;
+	}
+
+	.buttonpresenters {
+		width: 25.9769080234834%;
+		margin-right: 1.4203522504892%;	
+	}
+
+	.buttonschedule {
+		width: 20.9130136986301%;
+		margin-right: .0289628180039%;	
+	}
+
+	.buttonvendors {
+		width: 22.5022504892368%;
+	}
+	
+	.contentbox {
+		width: 77%;
+		left: 12.5%;
+		right: 12.5%;
+	}
+
+	.maintext {
+		width: 70%;
+	}
+
+	.photosidebar {
+		width: 30%;
+	}
+
+	.photosidebar h5 {
+		font-size: 2.2vw;
+	}
+
+	.photosidebarh6 {
+		font-size: 1.7vw;
+		line-height: 2.2vw;
+	}
+	
+	.countrycolor {
+		font-size: 2.2vw;
+	}
+	
+	.scheduletime, .schedulebreak, .planets {
+		font-size:2.4vw;
+		line-height:2.4vw;
+	}
+
+	.scheduleroom {
+		font-size:2.4vw;
+		line-height:3.3vw;	
+	}
+
+
+}
+
+@media (min-width: 500px) and (max-width: 600px)  {
+	
+
+	h1 {
+		font-size: 3.6VW;
+		line-height: 3.6VW;
+	}
+
+	h2 {
+		font-size: 3.1VW;
+		line-height: 3.1VW;
+	}
+
+	h3 {
+		font-size: 2.7VW;
+		line-height: 3.7VW;
+	}	
+	
+	h4 {
+		font-size: 3.2VW;
+		line-height: 3.5VW;
+	}
+
+	.mainbox {
+		background-position: center 7.8vw;
+	}
+	
+	.herobox {
+		position: relative;
+		top: 13VW;
+	}
+	.logo {
+		margin-left: 0%;
+		width: 55%;
+	}
+	
+	.herotext {
+		width: 42.5%;
+		margin-left: -2vw;
+		margin-bottom: 20px;
+		font-size: 3VW;
+		line-height: 4.75VW;
+	}
+
+	.heroh2 {
+		margin-bottom: 1.5vw;
+		font-size: 3.7VW;
+	}
+
+	
+	.navbox {
+		z-index: 1000;
+		position: fixed;
+		top: 0px;
+		padding-top: 15px;
+		height: 3vw;
+		width: 98%;
+		left: 1%;
+		right: 1%;
+		background-color:rgba(0,0,0,1);
+		box-shadow: 0px 3vw 20px rgba(0,0,0,1);
+	}
+	
+	
+	.nav {
+		font-size: 4.4VW;
+		line-height: 2.7VW;
+	}
+	
+	.button {
+		height: 5.5VW;
+	}
+	
+
+	.buttonregistration {
+		width: 29.1585127201566%;
+		margin-right: 0% !important;
+	}
+
+	.buttonpresenters {
+		width: 25.9769080234834%;
+		margin-right: 1.4203522504892%;	
+	}
+
+	.buttonschedule {
+		width: 20.9130136986301%;
+		margin-right: .0289628180039%;	
+	}
+
+	.buttonvendors {
+		width: 22.5022504892368%;
+	}
+
+	.contentbox {
+		top: 15VW;
+		width: 90%;
+		left: 5%;
+		right: 5%;
+
+	}
+
+	.maintext {
+		width: 70%;
+	}
+
+	.photosidebar {
+		width: 30%;
+	}
+
+	.photosidebar h5 {
+		font-size: 2.55vw;
+	}
+
+	.photosidebarh6 {
+		font-size: 2vw;
+		line-height: 2.6vw;
+	}
+	
+	.countrycolor {
+		font-size: 2.6vw;
+	}
+
+	.scheduletime, .schedulebreak, .planets {
+		font-size:3vw;
+		line-height:3vw;
+	}
+	
+	.scheduleroom {
+		font-size:3vw;
+		line-height:4.1vw;	
+	}
+
+}
+
+
+@media (max-width: 499px)  {
+	
+	h1 {
+		font-size: 28px;
+		line-height: 34px;
+		text-align: left;
+	}
+
+	h2 {
+		font-size: 23px;
+		line-height: 29px;
+		text-align: left;
+	}
+
+	h3 {
+		font-size: 17px;
+		line-height: 20px;
+		text-align: left;
+	}
+	
+	h4 {
+		font-size: 19px;
+		line-height: 20px;
+		text-align: left;
+	}
+	
+	.mainbox {
+		background-position: center 10vw;
+	}
+	
+	.herobox {
+		position: relative;
+		top: 15VW;
+	}
+	
+	.heroboxsub {
+		top: 14VW;
+	}
+
+	.logo {
+		margin-left: 6%;
+		margin-right: 8%;
+		width: 86%;
+		float: none;
+	}
+	
+	.logosub {
+		margin-left: 14%;
+		margin-right: 16%;
+		width: 70%;
+		display: none;
+	}
+	
+	.logosubalt {
+		top: 6vw;
+		width:90%;
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom:12.5vw;
+	}
+	
+	.herotext {
+		width: 88%;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-top: -5VW;
+		font-size: 4.75VW;
+		line-height: 6.75VW;
+	}
+	
+	.herotextalt {
+		display: block;
+	}
+	
+	.heroh2alt {
+		color: #fff;
+	}
+	
+	.herotextsub {
+		display: none;
+	}
+
+	.heroh2 {
+		margin-bottom: .5vw;
+		font-size: 6.5VW;
+	}
+	
+	.navbox {
+		z-index: 1000;
+		position: fixed;
+		top: 0px;
+		padding-top: 15px;
+		width: 100%;
+		left: 0%;
+		right: 0%;
+		background-color:rgba(0,0,0,1);
+		box-shadow: 0px 2.8vw 25px rgba(0,0,0,1);
+	}
+	
+	.nav {
+		font-size: 4.4VW;
+		line-height: 2.7VW;
+	}
+	
+	.button {
+		height: 5.5VW;
+	}
+	
+
+	.buttonregistration {
+		width: 29.1585127201566%;
+		margin-right: 0% !important;
+	}
+
+	.buttonpresenters {
+		width: 25.9769080234834%;
+		margin-right: 1.4203522504892%;	
+	}
+
+	.buttonschedule {
+		width: 20.9130136986301%;
+		margin-right: .0289628180039%;	
+	}
+
+	.buttonvendors {
+		width: 22.5022504892368%;
+	}
+
+	.contentbox {
+		position: relative;
+		top: 15.9vw;
+		width: 90%;
+		left: 5%;
+		right: 5%;
+	}
+
+	.maintext {
+		width: 100%;
+	}
+
+	.photosidebar {
+		display: none;
+	}
+
+	.scheduletime, .schedulebreak, .planets {
+		font-size:4.2vw;
+		line-height:4.2vw;
+	}
+	
+	.scheduleroom {
+		font-size:4.2vw;
+		line-height: 5.8vw;	
+	}
+	
+
+	.registrationfooter { 
+		width: 100%;
+		text-align: center;
+		clear: both;
+		padding-top:10px;
+		padding-bottom: 10px;
+
+	}
+	
+	.registrationfooter h3 {
+		text-align: center;
+	}
+
+	.footerlogo {
+		width: 80%;
+		max-width: 300px;
+		display: inline-block;
+		padding-top:5px;
+
+	}
+}
+
+@media (min-width: 500px)  {
+
+	.herotextalt {
+		display: none;
+	}
+	
+	.logosubalt {
+		display: none !important
+	}
+
+}

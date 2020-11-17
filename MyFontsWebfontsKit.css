@@ -1,0 +1,36 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3968150, 2020-11-03T03:36:34-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: 1651AlchemyNormal by GLC
+ * URL: https://www.myfonts.com/fonts/glc/1651-alchemy/normal/
+ * Copyright: Copyright (c) 2010 by Gilles Le Corre. All rights reserved.
+ * 
+ * Webfont: TropMagus-Regular by Kickingbird
+ * URL: https://www.myfonts.com/fonts/kickingbirdfonts/trop-magus/trop-magus/
+ * Copyright: http://KickingbirdFonts.com
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c8c96");
+  
+@font-face {
+  font-family: 'TropMagus-Regular';
+  src: url('webFonts/TropMagus-Regular/font.woff2') format('woff2'), url('webFonts/TropMagus-Regular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlchemyNormal1651';
+  src: url('webFonts/AlchemyNormal1651/font.woff2') format('woff2'), url('webFonts/AlchemyNormal1651/font.woff') format('woff');
+}
+
